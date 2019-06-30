@@ -1,9 +1,6 @@
 body {
   text-align: center;
-  background: url("./assets/beach.webp");
-  background-size: cover;
-  background-position: center;
-  /* background: grey; */
+  background: grey;
   color: purple;
 }
 
@@ -12,6 +9,18 @@ img {
 }
 
 h1 {
-  font-size: 300;
-  margin: 30;
+  /* font-size: 300;
+  margin: 30; */
+}
+
+.firstclass {
+  background: url("./assets/beach.webp");
+  background-size: cover;
+  background-position: center;
+}
+
+.secondclass {
+  background: url("./assets/backgroundyellow.jpeg");
+  background-size: cover;
+  background-position: center;
 }
