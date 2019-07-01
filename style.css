@@ -1,26 +1,46 @@
 body {
-  text-align: center;
+  /* text-align: center;
   background: grey;
-  color: purple;
+  color: purple; */
+  margin: 0 auto;
+  /* padding: 0;
+  height: 100%; */
 }
 
-img {
-  height: 200px;
+header {
+  text-align: center;
+  background: url("./assets/IMG-0304.JPG");
+  background-size: cover;
+  color: white;
+  /* background-position: center; */
+  /* height: 300px; */
 }
+
+/* img {
+  height: 200px;
+} */
 
 h1 {
   /* font-size: 300;
   margin: 30; */
 }
 
+h2 {
+  margin: 0px 0px 10px 0px;
+}
+
 .firstclass {
-  background: url("./assets/beach.webp");
+  background: url("./assets/IMG-0304.JPG");
+  /* background: green; */
   background-size: cover;
   background-position: center;
+  height: 300px;
 }
 
 .secondclass {
   background: url("./assets/backgroundyellow.jpeg");
+  /* background: orange; */
   background-size: cover;
   background-position: center;
+  height: 300px;
 }
