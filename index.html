@@ -10,26 +10,39 @@
   <body>
     <header>
       <h1>Terry Foley</h1>
-      <h2>Future Web Developer</h2>
-      <p>
-        Hi my name is Terry and this is my profile! Hi my name is Terry and this is my profile! Hi my name is Terry and this is my profile! Hi my name is Terry and this is my profile! Hi my name is Terry and this is my profile!
-      </p>
+      <h2>Web Developer</h2>
+      <img src="./assets/IMG-0304.JPG">
+      <h4 class="intro">
+        Hi my name is Terry and this is my profile! I'm an aspiring web developer with a passion for building things, as well as a background in music and accounting.
+      </h4>
     </header>
 
-    <div class="secondclass">
-      <h2>First Fun Fact</h2>
-      <p>
-        Insert fun fact here insert fun fact here insert fun fact here insert fun fact here insert fun fact here insert fun fact here insert fun fact here
-      </p>
-      <h2>Second Fun Fact</h2>
-      <p>
-        Insert fun fact here insert fun fact here insert fun fact here insert fun fact here insert fun fact here insert fun fact here insert fun fact here
-      </p>
-      <h2>Third Fun Fact</h2>
-      <p>
-        Insert fun fact here insert fun fact here insert fun fact here insert fun fact here insert fun fact here insert fun fact here insert fun fact here
-      </p>
+    <div class="parent">
+      <div class="first" id="divv">
+        <h2>Coding</h2>
+        <p>
+          I've been coding for almost a year, and have built several apps using React, JS, HTML and CSS. Some examples include a music recommendation app and a trivia site
+        </p>
+      </div>
+      <div class="second" id="divv">
+        <h2>Accounting</h2>
+        <p>
+          I studied accounting in college and worked as a staff accountant for several years, where I assisted the controller in compiling monthly financial reports
+        </p>
+      </div>
+      <div class="third" id="divv">
+        <h2>Music</h2>
+        <p>
+          I've played music my whole life and am currently in several bands. I play guitar, bass, piano, and drums
+        </p>
+      </div>
     </div>
+
+    <script>
+      document.getElementById('divv').addEventListener('click', function(){
+        this.classList.toggle('show-description')
+      })
+    </script>
 
   </body>
 </html>
