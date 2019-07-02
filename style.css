@@ -1,10 +1,6 @@
 body {
   text-align: center;
-  /* background: grey;
-  color: purple; */
   margin: 0 auto;
-  /* padding: 0;
-  height: 100%; */
   font-family: fantasy;
   color: blue;
 }
@@ -33,14 +29,9 @@ p {
 
 .firstclass {
   background: url("./assets/IMG-0304.JPG");
-  /* background: green; */
   background-size: cover;
   background-position: center;
   height: 300px;
-}
-
-.intro {
-  /* width: 50%; */
 }
 
 .parent {
@@ -53,17 +44,14 @@ p {
 
 .first {
   padding: 50 0 10 0;
-  /* background: blue; */
 }
 
 .second {
   padding: 10 0 10 0;
-  /* background: blue; */
 }
 
 .third {
   padding: 10 0 10 0;
-  /* background: blue; */
 }
 
 .show-description p {
